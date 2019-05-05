@@ -1,0 +1,23 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'DTDemo02' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+  
+  pod 'BlocksKit'
+  pod 'YYKit'
+
+  # Pods for DTDemo02
+
+  target 'DTDemo02Tests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'DTDemo02UITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end

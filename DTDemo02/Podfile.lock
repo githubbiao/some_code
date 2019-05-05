@@ -1,0 +1,36 @@
+PODS:
+  - BlocksKit (2.2.5):
+    - BlocksKit/All (= 2.2.5)
+  - BlocksKit/All (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+    - BlocksKit/MessageUI
+    - BlocksKit/UIKit
+  - BlocksKit/Core (2.2.5)
+  - BlocksKit/DynamicDelegate (2.2.5)
+  - BlocksKit/MessageUI (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+  - BlocksKit/UIKit (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+  - YYKit (1.0.9):
+    - YYKit/no-arc (= 1.0.9)
+  - YYKit/no-arc (1.0.9)
+
+DEPENDENCIES:
+  - BlocksKit
+  - YYKit
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - BlocksKit
+    - YYKit
+
+SPEC CHECKSUMS:
+  BlocksKit: 7f422b971407001178d181a43b99014ea2591fe6
+  YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
+
+PODFILE CHECKSUM: 01a32f098fce5659b0ae33bddea0b026529f3145
+
+COCOAPODS: 1.7.0.beta.1
