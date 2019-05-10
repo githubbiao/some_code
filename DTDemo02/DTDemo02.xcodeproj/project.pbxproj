@@ -28,6 +28,7 @@
 		10B8FAEF2276DA8F00FF6537 /* DTBaseTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10B8FAEE2276DA8F00FF6537 /* DTBaseTableController.m */; };
 		10B8FAF22276DABB00FF6537 /* DTYYKitStudyController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10B8FAF12276DABB00FF6537 /* DTYYKitStudyController.m */; };
 		10B8FAF62276DE6C00FF6537 /* DTYYLockController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10B8FAF52276DE6C00FF6537 /* DTYYLockController.m */; };
+		10F2A969228009E3007F1ED8 /* DTCollectionSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = 10F2A968228009E3007F1ED8 /* DTCollectionSafe.m */; };
 		10FDB6A92275CE4200E6DF53 /* DTAnimationContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 10FDB6A82275CE4200E6DF53 /* DTAnimationContainer.m */; };
 		10FDB6AD22769F4E00E6DF53 /* DTObjcController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10FDB6AC22769F4E00E6DF53 /* DTObjcController.m */; };
 		10FDB6B022769F7300E6DF53 /* DTObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 10FDB6AF22769F7300E6DF53 /* DTObject.m */; };
@@ -99,6 +100,8 @@
 		10B8FAF12276DABB00FF6537 /* DTYYKitStudyController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DTYYKitStudyController.m; sourceTree = "<group>"; };
 		10B8FAF42276DE6C00FF6537 /* DTYYLockController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DTYYLockController.h; sourceTree = "<group>"; };
 		10B8FAF52276DE6C00FF6537 /* DTYYLockController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DTYYLockController.m; sourceTree = "<group>"; };
+		10F2A967228009E3007F1ED8 /* DTCollectionSafe.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DTCollectionSafe.h; sourceTree = "<group>"; };
+		10F2A968228009E3007F1ED8 /* DTCollectionSafe.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DTCollectionSafe.m; sourceTree = "<group>"; };
 		10FDB6A72275CE4200E6DF53 /* DTAnimationContainer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DTAnimationContainer.h; sourceTree = "<group>"; };
 		10FDB6A82275CE4200E6DF53 /* DTAnimationContainer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DTAnimationContainer.m; sourceTree = "<group>"; };
 		10FDB6AB22769F4E00E6DF53 /* DTObjcController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DTObjcController.h; sourceTree = "<group>"; };
@@ -154,6 +157,8 @@
 			children = (
 				104883672272A4010058688D /* DTRuntimeController.h */,
 				104883682272A4010058688D /* DTRuntimeController.m */,
+				10F2A967228009E3007F1ED8 /* DTCollectionSafe.h */,
+				10F2A968228009E3007F1ED8 /* DTCollectionSafe.m */,
 				10025C692272DEAC00047B17 /* DTRuntime.h */,
 				10025C6A2272DEAC00047B17 /* DTRuntime.m */,
 				10025C6D2272E20700047B17 /* DTBase.h */,
@@ -573,6 +578,7 @@
 				10025C6F2272E20700047B17 /* DTBase.m in Sources */,
 				1048836C2272A4590058688D /* DTMainViewController.m in Sources */,
 				10FDB6B322769FE400E6DF53 /* DTChangeStatusBarController.m in Sources */,
+				10F2A969228009E3007F1ED8 /* DTCollectionSafe.m in Sources */,
 				10FDB6BC2276A20300E6DF53 /* DTBlocksController.m in Sources */,
 				1048836F2272A4870058688D /* DTNavigationController.m in Sources */,
 				10025C722272E26200047B17 /* DTAnimate.m in Sources */,
