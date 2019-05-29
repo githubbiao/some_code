@@ -23,6 +23,9 @@
 		104883692272A4010058688D /* DTRuntimeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 104883682272A4010058688D /* DTRuntimeController.m */; };
 		1048836C2272A4590058688D /* DTMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1048836B2272A4590058688D /* DTMainViewController.m */; };
 		1048836F2272A4870058688D /* DTNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1048836E2272A4870058688D /* DTNavigationController.m */; };
+		1051DF682292C80400EC1955 /* UIColor+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 1051DF672292C80400EC1955 /* UIColor+Extension.m */; };
+		1051DF6B2292C89600EC1955 /* DTExpressionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1051DF6A2292C89600EC1955 /* DTExpressionViewController.m */; };
+		1051DF6E2292C8CB00EC1955 /* DTGF.m in Sources */ = {isa = PBXBuildFile; fileRef = 1051DF6C2292C8CB00EC1955 /* DTGF.m */; };
 		10B8FAE52276C7F600FF6537 /* DTCFoundationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10B8FAE42276C7F600FF6537 /* DTCFoundationController.m */; };
 		10B8FAE82276C81400FF6537 /* DTBaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10B8FAE72276C81400FF6537 /* DTBaseController.m */; };
 		10B8FAEF2276DA8F00FF6537 /* DTBaseTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10B8FAEE2276DA8F00FF6537 /* DTBaseTableController.m */; };
@@ -90,6 +93,13 @@
 		1048836B2272A4590058688D /* DTMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DTMainViewController.m; sourceTree = "<group>"; };
 		1048836D2272A4870058688D /* DTNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DTNavigationController.h; sourceTree = "<group>"; };
 		1048836E2272A4870058688D /* DTNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DTNavigationController.m; sourceTree = "<group>"; };
+		1051DF662292C80400EC1955 /* UIColor+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+Extension.h"; sourceTree = "<group>"; };
+		1051DF672292C80400EC1955 /* UIColor+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Extension.m"; sourceTree = "<group>"; };
+		1051DF692292C89600EC1955 /* DTExpressionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DTExpressionViewController.h; sourceTree = "<group>"; };
+		1051DF6A2292C89600EC1955 /* DTExpressionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DTExpressionViewController.m; sourceTree = "<group>"; };
+		1051DF6C2292C8CB00EC1955 /* DTGF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTGF.m; sourceTree = "<group>"; };
+		1051DF6D2292C8CB00EC1955 /* DTGF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTGF.h; sourceTree = "<group>"; };
+		1051DF6F2292C9BA00EC1955 /* 方正静蕾简体.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "方正静蕾简体.ttf"; sourceTree = "<group>"; };
 		10B8FAE32276C7F600FF6537 /* DTCFoundationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DTCFoundationController.h; sourceTree = "<group>"; };
 		10B8FAE42276C7F600FF6537 /* DTCFoundationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DTCFoundationController.m; sourceTree = "<group>"; };
 		10B8FAE62276C81400FF6537 /* DTBaseController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DTBaseController.h; sourceTree = "<group>"; };
@@ -198,6 +208,13 @@
 				104883302272A2210058688D /* AppDelegate.m */,
 				104883702272A5820058688D /* Source */,
 				104883352272A2210058688D /* Main.storyboard */,
+				1051DF662292C80400EC1955 /* UIColor+Extension.h */,
+				1051DF672292C80400EC1955 /* UIColor+Extension.m */,
+				1051DF692292C89600EC1955 /* DTExpressionViewController.h */,
+				1051DF6A2292C89600EC1955 /* DTExpressionViewController.m */,
+				1051DF6F2292C9BA00EC1955 /* 方正静蕾简体.ttf */,
+				1051DF6D2292C8CB00EC1955 /* DTGF.h */,
+				1051DF6C2292C8CB00EC1955 /* DTGF.m */,
 				104883382272A22E0058688D /* Assets.xcassets */,
 				1048833A2272A22E0058688D /* LaunchScreen.storyboard */,
 				1048833D2272A22E0058688D /* Info.plist */,
@@ -570,8 +587,11 @@
 				1048833F2272A22E0058688D /* main.m in Sources */,
 				10FDB6B022769F7300E6DF53 /* DTObject.m in Sources */,
 				10025C752275A69000047B17 /* DTAnimationController.m in Sources */,
+				1051DF6B2292C89600EC1955 /* DTExpressionViewController.m in Sources */,
+				1051DF682292C80400EC1955 /* UIColor+Extension.m in Sources */,
 				10B8FAF22276DABB00FF6537 /* DTYYKitStudyController.m in Sources */,
 				10FDB6AD22769F4E00E6DF53 /* DTObjcController.m in Sources */,
+				1051DF6E2292C8CB00EC1955 /* DTGF.m in Sources */,
 				10B8FAF62276DE6C00FF6537 /* DTYYLockController.m in Sources */,
 				10B8FAE52276C7F600FF6537 /* DTCFoundationController.m in Sources */,
 				10FDB6B62276A01B00E6DF53 /* UINavigationController+DTStatusBar.m in Sources */,
