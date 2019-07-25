@@ -9,6 +9,7 @@ i
 
     fastlane https://docs.fastlane.tools
     weex: https://github.com/apache/incubator-weex
+    chameleon(didi): https://github.com/didi/chameleon
 ```
 ```
     - (void)charsInt {
